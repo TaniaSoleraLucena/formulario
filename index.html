@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña">
+        <br>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email">
+        <br>
+        <label for="url">URL:</label>
+        <input type="url" placeholder="Escribe la url de tu página">
+        <br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha">
+        <br>
+        <label for="tiempo">Tiempo:</label>
+        <input type="time" id="tiempo">
+        <br>
+        <label for="numero">Número (min -10, max 10):</label>
+        <input type="number" id="numero" min="-10" max="10">
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" pattern="[0-9]{9}">
+        <br>
+        <label for="busqueda">Término de busqueda</label>
+        <input type="search" id="busqueda">
+        <br>
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color">
+        <br>
+        <label for="so">Sistema operativo:</label>
+        <select name="" id="so">
+                <option value="windows">Windows</option>
+                <option value="linux">Linux</option>
+            </select><br>
+        <label for="programacion">¿Qué lenguaje de programación conoces?</label>
+        <input type="checkbox" id="programacion">Html5
+        <input type="checkbox" id="programacion">Css3
+        <input type="checkbox" id="programacion">JavaScript
+        <input type="checkbox" id="programacion">Php
+        <input type="checkbox" id="programacion">Python
+        <br>
+        <label for="python">¿Sabes utilizar Python?</label>
+        <input type="radio" name="datos">Si
+        <input type="radio" name="datos">No
+        <br>
+        Comentarios:<textarea name="" id="" cols="30" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Submit!">
+
+    </form>
+</body>
+</html>
