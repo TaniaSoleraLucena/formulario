@@ -8,16 +8,16 @@
 <body>
     <form action="" method="get">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre">
+        <input type="text" id="nombre" required>
         <br>
         <label for="contraseña">Contraseña:</label>
-        <input type="password" id="contraseña">
+        <input type="password" id="contraseña" required>
         <br>
         <label for="correo">Correo Electrónico:</label>
-        <input type="email">
+        <input type="email" required>
         <br>
         <label for="url">URL:</label>
-        <input type="url" placeholder="Escribe la url de tu página">
+        <input type="url" required placeholder="Escribe la url de tu página">
         <br>
         <label for="fecha">Fecha:</label>
         <input type="date" id="fecha">
@@ -43,14 +43,14 @@
                 <option value="linux">Linux</option>
             </select><br>
         <label for="programacion">¿Qué lenguaje de programación conoces?</label>
-        <input type="checkbox" id="programacion">Html5
-        <input type="checkbox" id="programacion">Css3
+        <input type="checkbox" id="programacion" checked>Html5
+        <input type="checkbox" id="programacion" checked>Css3
         <input type="checkbox" id="programacion">JavaScript
         <input type="checkbox" id="programacion">Php
         <input type="checkbox" id="programacion">Python
         <br>
         <label for="python">¿Sabes utilizar Python?</label>
-        <input type="radio" name="datos">Si
+        <input type="radio" name="datos" checked>Si
         <input type="radio" name="datos">No
         <br>
         Comentarios:<textarea name="" id="" cols="30" rows="5"></textarea>
